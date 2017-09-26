@@ -1,0 +1,180 @@
+body {
+    background-image: url('../img/img12.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+.roll {
+    text-align: center;
+}
+
+.title,
+.subtitle {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    color: white;   
+    
+}
+
+.player {
+    box-shadow: 0 2px 5px 0 #000;
+    transition: all 400ms;
+    left: 10px;
+}
+
+.player,
+.tile {
+    width: 70px;
+    height: 70px;
+}
+
+.player1 {
+    position: absolute;
+    background-image: url('https://i2.wp.com/www.insightsonindia.com/wp-content/uploads/2016/11/you.jpg');
+    background-size: cover;
+    top: 160px;
+}
+
+.player1.alter-ego {
+    background-image: url('../img/soros.jpg');
+}
+
+.player1::before {
+    position: relative;
+    content: 'P 1';
+    top: -15px;
+    left: 25%;
+    color: black;
+}
+
+.player2 {
+    position: absolute;
+    top: 250px;
+    background-image: url('http://static1.squarespace.com/static/5438a88ce4b0a3191f9d07c8/t/55c690d6e4b0f2e19074044a/1500629303501/?format=1500w');
+    background-size: cover;
+}
+
+.player2.alter-ego {
+    background-image: url('../img/putin.jpg');
+}
+.tile {
+    margin-top: 5px;
+}
+.player2::before {
+    position: relative;
+    content: 'P 2';
+    top: -15px;
+    left: 25%;
+    color: black;
+}
+
+.die-container {
+    max-width: 280px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.die {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    cursor: pointer;
+}
+
+.die-container h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-70%);
+    margin: 0;
+    cursor: pointer;
+}
+
+.board-container {
+    text-align: center;
+    
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    box-sizing: border-box;
+    display: block;
+    background-size: cover;
+    
+    content: '';
+    margin: 5px;
+}
+
+.winner {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    box-shadow: inset 17px -9px 20px 8px #143866;
+}
+
+#tile1 {
+   
+    border: 8px solid #A71A51;
+    box-shadow: inset 10px 10px 5px #888888;
+
+}
+
+    
+
+#tile2 {
+    border: 8px solid #8b2b52;
+    
+    box-shadow: inset 10px 10px 5px #888888;
+}
+#tile3 {
+    border: 8px solid #841854;
+    
+    box-shadow: inset 10px 10px 5px #888888;
+} 
+#tile4 {
+    border: 8px solid #730d3b;;
+   
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
+#tile5 {
+    border: 8px solid #953469;
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
+#tile6 {
+    border: 8px solid #A71A51;
+    border-color:pink;
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
+#tile7 {
+    border: 8px solid #A71A51;
+    border-color:pink;
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
+#tile8 {
+    border: 8px solid #A71A51;
+    border-color:#4d6a8a;
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
+#tile9 {
+    border: 8px solid #A71A51;
+    border-color:#2d5794;
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
+#tile10 {
+    border: 8px solid #0d214f;;
+    box-shadow: inset 10px 10px 5px #888888;
+    
+}
